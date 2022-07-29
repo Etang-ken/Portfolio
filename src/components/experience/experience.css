@@ -48,6 +48,10 @@
     color: var(--color-primary);
 }
 
+.experience__details h5 {
+    font-size: 0.9rem;
+  }
+
 @media screen and (max-width: 1024px){
     .experience__container {
         grid-template-columns: 1fr;

@@ -15,31 +15,31 @@ const Experience = () => {
           <div className="experience__content">
           <div className="experience__details">
               <FaHtml5 className="experience__details-icon" />
-              <h4>HTML</h4>
+              <h5>HTML</h5>
             </div>
             <div className="experience__details">
               <FaCss3 className="experience__details-icon" />
-              <h4>CSS</h4>
+              <h5>CSS</h5>
             </div>
             <div className="experience__details">
               <FaJs className="experience__details-icon" />
-              <h4>JavaScript</h4>
+              <h5>JavaScript</h5>
             </div>
             <div className="experience__details">
               <FaBootstrap className="experience__details-icon" />
-              <h4>Bootstrap</h4>
+              <h5>Bootstrap</h5>
             </div>
             <div className="experience__details">
               <FaReact className="experience__details-icon" />
-              <h4>ReactJS</h4>
+              <h5>ReactJS</h5>
             </div>
             <div className="experience__details">
               <FaJsSquare className="experience__details-icon" />
-              <h4>jQuery</h4>
+              <h5>jQuery</h5>
             </div>
             <div className="experience__details">
               <FaVuejs className="experience__details-icon" />
-              <h4>VueJS</h4>
+              <h5>VueJS</h5>
             </div>
           </div>
         </div>
@@ -49,31 +49,31 @@ const Experience = () => {
           <div className="experience__content">
             <div className="experience__details">
               <FaPhp className="experience__details-icon" />
-              <h4>PHP</h4>
+              <h5>PHP</h5>
             </div>
             <div className="experience__details">
               <FaLaravel className="experience__details-icon" />
-              <h4>Laravel</h4>
+              <h5>Laravel</h5>
             </div>
             <div className="experience__details">
               <FaNodeJs className="experience__details-icon" />
-              <h4>NodeJS</h4>
+              <h5>NodeJS</h5>
             </div>
             <div className="experience__details">
               <FaJs className="experience__details-icon" />
-              <h4>ExpressJS</h4>
+              <h5>ExpressJS</h5>
             </div>
             <div className="experience__details">
               <FaDatabase className="experience__details-icon" />
-              <h4>MySQL</h4>
+              <h5>MySQL</h5>
             </div>
             <div className="experience__details">
               <FaDatabase className="experience__details-icon" />
-              <h4>MongoDB</h4>
+              <h5>MongoDB</h5>
             </div>
             <div className="experience__details">
               <FaGithub className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
+              <h5>Git/GitHub</h5>
             </div>
           </div>
         </div>
@@ -83,11 +83,11 @@ const Experience = () => {
           <div className="experience__content">
             <div className="experience__details">
               <FaPenNib className="experience__details-icon" />
-              <h4>Adobe XD</h4>
+              <h5>Adobe XD</h5>
             </div>
             <div className="experience__details">
               <FaPenNib className="experience__details-icon" />
-              <h4>Adobe Photoshop</h4>
+              <h5>Adobe Photoshop</h5>
             </div>
           </div>
         </div>
