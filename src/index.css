@@ -11,7 +11,9 @@
 }
 
 :root {
-  --color-bg: rgb(31, 31, 56);
+  --color-bg: rgb(23, 23, 44);
+  /* --color-bg: rgb(20, 20, 39); */
+  --color-bg-dark: rgb(17, 17, 36);
   --color-bg-variant: rgb(44, 44, 108);
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
