@@ -22,6 +22,8 @@
 
 .experience__container > div h3 {
     /* text-align: center; */
+    display: flex;
+    align-items: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
 }
