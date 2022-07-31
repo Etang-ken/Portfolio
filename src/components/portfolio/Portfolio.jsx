@@ -1,7 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/kblt.png';
 import IMG2 from '../../assets/tutor_finder.png';
-import IMG3 from '../../assets/fake.png';
+import IMG3 from '../../assets/employee-info.png';
 import IMG4 from '../../assets/blog.png';
 import IMG5 from '../../assets/weather.png';
 import IMG6 from '../../assets/todo-new.png';
@@ -76,7 +76,7 @@ const Portfolio = () => {
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
             <div className="portfolio__item-image">
-              <img src={pro.img} alt={pro.title} />
+              <img src={pro.img} alt={pro.title} height="100%" />
             </div>
             <div className="portfolio__item-content">
               <h3>{pro.title}</h3>
