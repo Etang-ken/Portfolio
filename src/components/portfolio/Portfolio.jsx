@@ -1,10 +1,10 @@
 import React from 'react';
-import IMG1 from '../../assets/bookstore.png';
-import IMG2 from '../../assets/todo.png';
-import IMG3 from '../../assets/shelter.png';
-import IMG4 from '../../assets/fake.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+import IMG1 from '../../assets/kblt.png';
+import IMG2 from '../../assets/tutor_finder.png';
+import IMG3 from '../../assets/fake.png';
+import IMG4 from '../../assets/blog.png';
+import IMG5 from '../../assets/weather.png';
+import IMG6 from '../../assets/todo-new.png';
 
 import './portfolio.css';
 
@@ -16,35 +16,35 @@ const Portfolio = () => {
       img: IMG1,
       description: 'A website for a talent show that was build as a team to manage contestants\' votes per seasons',
       technologies: 'Bootstrap | Laravel',
-      link: 'https://melodic-boba-111583.netlify.app/',
+      // link: 'https://melodic-boba-111583.netlify.app/',
       github: 'https://github.com/AVN-Group/kblt-voting-platform',
     },
     {
       id: 2,
       title: 'Tutor-Finder-WebApp',
-      img: IMG4,
+      img: IMG2,
       description: 'This is a web application that makes it possible for students to locate highly experienced private tutors',
       technologies: 'Bootstrap | React | NodeJs',
-      link: 'https://fakestore-metrics.netlify.app/',
+      // link: 'https://fakestore-metrics.netlify.app/',
       github: 'https://github.com/Etang-ken/online_tutor_search',
     },
     {
       id: 3,
       title: 'Employee-Info',
-      img: IMG2,
+      img: IMG3,
       description: 'A web application that does the CRUD (create, read, update, and delete) operation on employee info',
       technologies: 'React | NodeJs',
-      link: 'https://meri-mg.github.io/To-Do-List/dist/',
+      // link: 'https://meri-mg.github.io/To-Do-List/dist/',
       github: 'https://github.com/Etang-ken/Mern-Employee-info',
     },
     {
       id: 4,
       title: 'A-Blog',
-      img: IMG3,
+      img: IMG4,
       description:
         'Laravel blog that lets only authenticated users to create, read, update and delete a blog and its comments, and every other non-authenticated user can view blog posts only',
       technologies: 'Bootstrap | Laravel',
-      link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
+      // link: 'https://meri-mg.github.io/shelter/pages/main/index.html',
       github: 'https://github.com/Etang-ken/Weather-App',
     },
     {
@@ -53,7 +53,7 @@ const Portfolio = () => {
       img: IMG5,
       description: 'Web application that lets a user see and know the climatic condition of any city in the world',
       technologies: 'JavaScript | CSS',
-      link: 'https://meri-mg.github.io/Unilab-world-news/',
+      // link: 'https://meri-mg.github.io/Unilab-world-news/',
       github: 'https://github.com/Etang-ken/Laravel-Blog-Project',
     },
     {
@@ -62,7 +62,7 @@ const Portfolio = () => {
       img: IMG6,
       description: 'A simple javascript to-do list with bootstrap styling',
       technologies: 'Bootstrap | Javascript',
-      link: 'https://lukinoo.github.io/math-resource/',
+      // link: 'https://lukinoo.github.io/math-resource/',
       github: 'https://github.com/Etang-ken/Todo-List',
     },
   ];
@@ -92,14 +92,12 @@ const Portfolio = () => {
               >
                 GitHub
               </a>
-              <a
-                href={pro.link}
-                target="_blank"
+              <button
                 className="btn btn-primary"
                 rel="noreferrer"
               >
                 Live Demo
-              </a>
+              </button>
             </div>
           </article>
         ))}
