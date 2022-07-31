@@ -2,13 +2,16 @@ import React from 'react';
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
 import './header.css';
-import ME from '../../assets/me.jpg';
+import ME from '../../assets/bg1.jpg';
 
 const Header = () => {
   return (
     <header id="home">
       <div className="container header__container border-box">
-        <div className="row">
+        <div className="row align-items-center">
+          <div className="my-image col-12 col-md-6 col-lg-6 mobile">
+            <img src={ME} alt="me"/>
+          </div>
           <div className='col-12 col-md-6 col-lg-6'>
             <h5>Hello I'm,</h5>
             <h1>Etang Kencliff Andock</h1>
@@ -17,7 +20,7 @@ const Header = () => {
             <HeaderSocials />
           </div>
           
-          <div className="my-image col-12 col-md-6 col-lg-6">
+          <div className="my-image col-12 col-md-6 col-lg-6 desktop">
             <img src={ME} alt="me"/>
           </div>
         </div>
