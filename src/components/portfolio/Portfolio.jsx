@@ -123,7 +123,7 @@ const Portfolio = () => {
           {soloProjects.map((pro) => (
             <SwiperSlide className="portfolio__item" key={pro.id}>
               <div className="portfolio__item-image">
-                <img src={pro.img} alt={pro.title} height="100%" />
+                <img src={pro.img} alt={pro.title} height="30%" />
               </div>
               <div className="portfolio__item-content">
                 <h3>{pro.title}</h3>
