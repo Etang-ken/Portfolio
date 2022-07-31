@@ -5,6 +5,8 @@ import IMG3 from '../../assets/employee-info.png';
 import IMG4 from '../../assets/blog.png';
 import IMG5 from '../../assets/weather.png';
 import IMG6 from '../../assets/todo-new.png';
+import { Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 import './portfolio.css';
 
@@ -72,6 +74,10 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
+      {/* desktop-display */}
+      <div className='desktop-size'
+        pagination={{ clickable: true }}
+        >
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
@@ -101,6 +107,49 @@ const Portfolio = () => {
             </div>
           </article>
         ))}
+      </div>
+      </div>
+
+      {/* mobile display */}
+      <div className="mobile-size">
+        <Swiper 
+          className="container testimonials__container"
+          modules={[Pagination]}
+          spaceBetween={40}
+          slidesPerView={1}
+          pagination={{ clickable: true }}
+          >
+        <div className="container portfolio__container">
+          {soloProjects.map((pro) => (
+            <SwiperSlide className="portfolio__item" key={pro.id}>
+              <div className="portfolio__item-image">
+                <img src={pro.img} alt={pro.title} height="100%" />
+              </div>
+              <div className="portfolio__item-content">
+                <h3>{pro.title}</h3>
+                <p>{pro.description}</p>
+                <p>{pro.technologies}</p>
+              </div>
+              <div className="portfolio__item-cta">
+                <a
+                  href={pro.github}
+                  target="_blank"
+                  className="btn"
+                  rel="noreferrer"
+                >
+                  GitHub
+                </a>
+                <button
+                  className="btn btn-primary"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </SwiperSlide>
+          ))}
+        </div>
+        </Swiper>
       </div>
     </section>
   );
