@@ -12,7 +12,6 @@ const Footer = () => {
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Skills</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
@@ -21,7 +20,7 @@ const Footer = () => {
       <a href="https://www.twitter.com/Ekencliff" target="_blank" rel="noreferrer" ><FaTwitter /></a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; ET 2022. All rights reserved.</small>
+        <small>&copy; EK 2022. All rights reserved.</small>
       </div>
     </footer>
   )

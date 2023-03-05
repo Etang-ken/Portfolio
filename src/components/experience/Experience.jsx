@@ -30,8 +30,12 @@ const Experience = () => {
               <h5>Bootstrap</h5>
             </div>
             <div className="experience__details">
+              <FaBootstrap className="experience__details-icon" />
+              <h5>TailwindCSS</h5>
+            </div>
+            <div className="experience__details">
               <FaReact className="experience__details-icon" />
-              <h5>ReactJS</h5>
+              <h5>ReactJS ( with Refine)</h5>
             </div>
             <div className="experience__details">
               <FaJsSquare className="experience__details-icon" />
@@ -40,6 +44,10 @@ const Experience = () => {
             <div className="experience__details">
               <FaVuejs className="experience__details-icon" />
               <h5>VueJS</h5>
+            </div>
+            <div className="experience__details">
+              <FaVuejs className="experience__details-icon" />
+              <h5>Flutter</h5>
             </div>
           </div>
         </div>
@@ -54,6 +62,14 @@ const Experience = () => {
             <div className="experience__details">
               <FaLaravel className="experience__details-icon" />
               <h5>Laravel</h5>
+            </div>
+            <div className="experience__details">
+              <FaLaravel className="experience__details-icon" />
+              <h5>Python</h5>
+            </div>
+            <div className="experience__details">
+              <FaLaravel className="experience__details-icon" />
+              <h5>Django</h5>
             </div>
             <div className="experience__details">
               <FaNodeJs className="experience__details-icon" />

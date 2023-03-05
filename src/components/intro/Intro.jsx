@@ -1,8 +1,8 @@
-import React from 'react';
-import { FaAward } from 'react-icons/fa';
-import { VscFolderLibrary } from 'react-icons/vsc';
-import ME from '../../assets/laptops/javas.webp';
-import './intro.css';
+import React from "react";
+import { FaAward } from "react-icons/fa";
+import { VscFolderLibrary } from "react-icons/vsc";
+import ME from "../../assets/laptops/javas.webp";
+import "./intro.css";
 
 const Intro = () => {
   return (
@@ -29,22 +29,24 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            I am an experience Full-stack web developer. I have a solid
-            understanding of the inner workings of Javascript. My love for
-            Javascript in particular is because of its loosely typed nature. This
-            enables me to think more about logic and problem solving rather than
-            too much time and focus on syntax.
+            Experienced Full-stack software developer with 2 years of experience
+            in writing robust and high-quality code for mobile and web
+            applications for high-volume businesses. Have good communication,
+            problem solving, adaptive, and understanding skills. A logical thinker
+            and so good at project management and modularization
           </p>
           <p>
-            I prefer Javascript because it can be used in both client-side and
-            server-side. I’m amazed by the plethora of applications and fields in
-            which it cuts across.
+            I have always aspired to be a Full-Stack developer because it gives
+            me total control over the building of the entire application, thus
+            leading to better end product.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Intro
+export default Intro;

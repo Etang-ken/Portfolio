@@ -91,19 +91,21 @@ const Portfolio = () => {
             </div>
             <div className="portfolio__item-cta">
               <a
-                href={pro.github}
-                target="_blank"
+                href={pro.id === 1 ? "#portfolio" : `${pro.github}`}
+                target={pro.id === 1 ? "" : `_blank`}
                 className="btn"
                 rel="noreferrer"
+                
               >
-                GitHub
+                {pro.id === 1 ? "Private" : "Github"}
               </a>
-              <button
+              {/* <button
                 className="btn btn-primary"
                 rel="noreferrer"
+                disabled
               >
                 Live Demo
-              </button>
+              </button> */}
             </div>
           </article>
         ))}
@@ -139,12 +141,13 @@ const Portfolio = () => {
                 >
                   GitHub
                 </a>
-                <button
+                {/* <button
                   className="btn btn-primary"
                   rel="noreferrer"
+                  disabled='true'
                 >
                   Live Demo
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
           ))}

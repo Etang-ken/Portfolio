@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/my_resume.pdf';
+import CV from '../../assets/Etang_Kencliff_Andock_Tabi_Atem_CV.pdf';
 
 const CTA = () => {
   return (
