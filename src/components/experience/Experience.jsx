@@ -1,7 +1,7 @@
 import React from 'react';
 // import { BsFillPatchCheckFill } from 'react-icons/bs';
 import { FaServer, FaDev, FaPaintBrush, FaPenNib, FaHtml5, FaCss3,  FaJs, FaBootstrap, FaReact, FaJsSquare, FaVuejs,
-          FaPhp, FaLaravel, FaNodeJs, FaDatabase, FaGithub } from 'react-icons/fa'
+          FaPhp, FaLaravel, FaNodeJs, FaDatabase, FaGithub, FaFigma, FaPython, FaMobile, FaCss3Alt } from 'react-icons/fa'
 import './experience.css';
 
 const Experience = () => {
@@ -30,12 +30,12 @@ const Experience = () => {
               <h5>Bootstrap</h5>
             </div>
             <div className="experience__details">
-              <FaBootstrap className="experience__details-icon" />
+              <FaCss3Alt className="experience__details-icon" />
               <h5>TailwindCSS</h5>
             </div>
             <div className="experience__details">
               <FaReact className="experience__details-icon" />
-              <h5>ReactJS ( with Refine)</h5>
+              <h5>ReactJS</h5>
             </div>
             <div className="experience__details">
               <FaJsSquare className="experience__details-icon" />
@@ -46,7 +46,7 @@ const Experience = () => {
               <h5>VueJS</h5>
             </div>
             <div className="experience__details">
-              <FaVuejs className="experience__details-icon" />
+              <FaMobile className="experience__details-icon" />
               <h5>Flutter</h5>
             </div>
           </div>
@@ -64,11 +64,11 @@ const Experience = () => {
               <h5>Laravel</h5>
             </div>
             <div className="experience__details">
-              <FaLaravel className="experience__details-icon" />
+              <FaPython className="experience__details-icon" />
               <h5>Python</h5>
             </div>
             <div className="experience__details">
-              <FaLaravel className="experience__details-icon" />
+              <FaPython className="experience__details-icon" />
               <h5>Django</h5>
             </div>
             <div className="experience__details">
@@ -102,8 +102,8 @@ const Experience = () => {
               <h5>Adobe XD</h5>
             </div>
             <div className="experience__details">
-              <FaPenNib className="experience__details-icon" />
-              <h5>Adobe Photoshop</h5>
+              <FaFigma className="experience__details-icon" />
+              <h5>Figma</h5>
             </div>
           </div>
         </div>

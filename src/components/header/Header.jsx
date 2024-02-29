@@ -15,7 +15,7 @@ const Header = () => {
           <div className='col-12 col-md-6 col-lg-6'>
             <h5>Hello I'm,</h5>
             <h1>Etang Kencliff Andock</h1>
-            <h4 className="text-light-primary">Full-stack Web Developer</h4>
+            <h4 className="text-light-primary">Full-Stack Software Developer</h4>
             <CTA />
             <HeaderSocials />
           </div>

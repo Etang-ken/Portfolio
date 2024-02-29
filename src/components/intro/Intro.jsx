@@ -20,25 +20,27 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1 year</small>
+              <small>4+ years</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <small>15+ Completed Projects</small>
             </article>
           </div>
           <p>
-            Experienced Full-stack software developer with 2 years of experience
-            in writing robust and high-quality code for mobile and web
-            applications for high-volume businesses. Have good communication,
-            problem solving, adaptive, and understanding skills. A logical thinker
-            and so good at project management and modularization
+            Experienced Full Stack Developer with a strong command of a diverse
+            set of programming languages and tools. Proficient in both backend
+            and frontend development, I seamlessly navigate every stage of the
+            development process. I'm a collaborative team player who brings
+            exceptional technical skills and a track record of 4+ years in
+            software development.
           </p>
           <p>
-            I have always aspired to be a Full-Stack developer because it gives
-            me total control over the building of the entire application, thus
-            leading to better end product.
+            My expertise lies in crafting and designing web applications using a
+            wide array of technologies, such HTML, CSS, JavaScript, Vue.js,
+            React, Flutter, and Laravel. I excel in building intricate backend
+            systems, robust web and mobile services, and database solutions
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
